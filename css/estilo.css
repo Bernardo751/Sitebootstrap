@@ -73,3 +73,8 @@ h1 p{
     border-style: outset;
 }
 
+.row {
+    border-radius: 20px;
+    background-color: #606060;
+}
+
