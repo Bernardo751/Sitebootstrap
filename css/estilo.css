@@ -1,5 +1,5 @@
 .fundobernardo {
-    background-color: #12acd3;
+    background-color: #606060;
 }
 
 .Curriculo {
@@ -16,3 +16,10 @@
     text-align: center;
 }
 
+h1 p{
+    text-decoration-color: #BFBFBF;
+}
+
+.ftr {
+   color: black;
+}
