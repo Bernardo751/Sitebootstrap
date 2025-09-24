@@ -23,3 +23,53 @@ h1 p{
 .ftr {
    color: black;
 }
+
+.meusobre{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.meuimg{
+    border-radius: 15px;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+.alinhar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container {
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 9px 8px rgba(0, 0, 0, 0.5); 
+    border-style: outset;
+  }
+  
+  .video-container video,
+  .video-container iframe {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .justificar{
+    text-align: justify;
+  }
+
+  .col1{
+    margin-top: 30px;
+    border: 10px solid #3c3c3c;
+    border-radius: 20px;
+    border-style: outset;
+}
+
