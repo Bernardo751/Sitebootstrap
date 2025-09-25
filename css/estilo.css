@@ -1,9 +1,10 @@
 .fundobernardo {
-    background-color: #606060;
+    background-color: whitesmoke;
 }
 
 .Curriculo {
     width: 50px;
+    border-radius: 20px;
 }
 
 .minhafonte {
@@ -73,5 +74,11 @@ h1 p{
     border-style: outset;
 }
 
+.cor {
+    font-size: small;
+    color: #c42525;
+}
+
+ /* <code></code> deixa o texto como se fosse um código.
 
 
