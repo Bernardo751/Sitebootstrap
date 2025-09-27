@@ -170,7 +170,7 @@ h1.text-center {
 
 .image-text {
     padding: 15px;
-    background-color: #f9f9f9;
+    background-color: #3c3c3c;
     border-top: 1px solid #eee;
     border-radius: 0 0 20px 20px;
     flex-grow: 1;
@@ -181,7 +181,7 @@ h1.text-center {
 
 .image-text p {
     margin: 0;
-    color: #555;
+    color: white;
     line-height: 1.5;
     font-size: 0.95em;
     padding: 5px;
@@ -235,7 +235,7 @@ h1.text-center {
     opacity: 1;
 }
 
-/* Responsividade importante demais*/
+/* Responsividade importante 'demais'*/
 @media (max-width: 992px) {
     .gallery-item {
         flex: 1 1 calc(50% - 20px);
