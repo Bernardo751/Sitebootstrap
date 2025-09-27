@@ -2,6 +2,10 @@
     background-color: #bb0b0b;
 }
 
+.fotosshop {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
 
 
 .Curriculo {
@@ -13,7 +17,9 @@
     font-size: 1.5rem;
 }
 
-
+.h2photoshop {
+    text-align: center;
+}
 
 .titulo {
     text-align: center;
@@ -25,6 +31,7 @@ h1 p{
 
 .ftr {
    color: black;
+   
 }
 
 .meusobre{
@@ -95,7 +102,52 @@ h1 p{
 }
 
 .gitlinkdirecionamento {
-    color: #13293D;
+    color: #4c00ff;
+}
+
+
+.gallery-item {
+    cursor: pointer; /* Adiciona o cursor de mão para indicar que é clicável */
+    border-radius: 20px; /* Bordas arredondadas de 20px */
+    overflow: hidden; /* Garante que a imagem e o texto sigam o border-radius */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Efeito suave */
+}
+
+.gallery-item img {
+    height: 200px;
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer .importante*/
+    transition: transform 0.3s ease-in-out; /* Efeito suave na imagem */
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px) scale(1.02); /* Efeito de "subir" e "aumentar" */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra mais forte no hover */
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05); /* Zoom suave na imagem ao passar o mouse */
+}
+
+.image-text {
+    background-color: #3c3c3c;
+}
+
+.image-text p {
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* Ajustes no Modal para o visual da galeria */
+.modal-content {
+    border-radius: 15px; /* Bordas arredondadas no modal */
+}
+
+.modal-header .btn-close {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
  /* <code></code> deixa o texto como se fosse um código. 
